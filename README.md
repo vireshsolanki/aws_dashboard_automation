@@ -28,10 +28,18 @@ The CloudFormation script (`automacticdashboard.yml`) automates the provisioning
 3. Upload the `automacticdashboard.yml` file.
 4. Follow the on-screen instructions, providing necessary parameters like stack name, Lambda function code location, etc.
 5. Click "Create Stack" to initiate the provisioning process.
-[![Launch Stack](https://raw.githubusercontent.com/vireshsolanki/aws_dashboard_automation/08ac6647f0bef48de29689cbcf70d943b82e427d/automacticdashboard.yaml)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?templateURL=https://raw.githubusercontent.com/vireshsolanki/aws_dashboard_automation/08ac6647f0bef48de29689cbcf70d943b82e427d/automacticdashboard.yaml)
 
+### Terraform
 
+The Terraform script (`main.tf`) automates the provisioning of resources:
 
+1. Ensure Terraform is installed on your local machine.
+2. Navigate to the directory called create-dashboard which contains the Terraform files (`main.tf`, `variables.tf`, `terraform.tfvars`, etc.).
+3. Update the `terraform.tfvars` file with your desired configurations, such as the region, name, email addresses, and dashboard name.
+4. Run `terraform init` to initialize the Terraform configuration.
+5. Run `terraform plan` to preview the resources that will be created.
+6. Run `terraform apply` to apply the configuration and provision the resources.
+7. Confirm the changes by typing `yes` when prompted.
 
 ## Resources Provisioned
 
@@ -52,7 +60,3 @@ Once the resources are provisioned, EC2 instances can be monitored automatically
 ## Contributing
 
 Contributions to improve and enhance the automation scripts are welcome! Feel free to submit pull requests or open issues for any suggestions or improvements.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
