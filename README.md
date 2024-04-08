@@ -28,7 +28,7 @@ The CloudFormation script (`automacticdashboard.yml`) automates the provisioning
 3. Upload the `automacticdashboard.yml` file.
 4. Follow the on-screen instructions, providing necessary parameters like stack name, Lambda function code location, etc.
 5. Click "Create Stack" to initiate the provisioning process.
-[![Launch Stack](https://raw.githubusercontent.com/vireshsolanki/aws_dashboard_automation/main/automacticdashboard.yaml)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?templateURL=https://raw.githubusercontent.com/vireshsolanki/aws_dashboard_automation/main/automacticdashboard.yaml)
+[![Launch Stack](https://raw.githubusercontent.com/vireshsolanki/aws_dashboard_automation/main/cloudformation_template.yml)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?templateURL=https://raw.githubusercontent.com/vireshsolanki/aws_dashboard_automation/main/cloudformation_template.yml)
 
 
 
