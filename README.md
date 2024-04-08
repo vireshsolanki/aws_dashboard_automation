@@ -21,14 +21,14 @@ Before deploying the scripts, ensure that you have the following prerequisites s
 
 ### CloudFormation
 
-The CloudFormation script (`cloudformation_template.yml`) automates the provisioning of resources:
+The CloudFormation script (`automacticdashboard.yml`) automates the provisioning of resources:
 
 1. Navigate to the AWS CloudFormation console.
 2. Click on "Create Stack" and choose "With new resources (standard)".
 3. Upload the `automacticdashboard.yml` file.
 4. Follow the on-screen instructions, providing necessary parameters like stack name, Lambda function code location, etc.
 5. Click "Create Stack" to initiate the provisioning process.
-[![Launch Stack](https://raw.githubusercontent.com/vireshsolanki/aws_dashboard_automation/main/automacticdashboard.yaml)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?templateURL=YOUR_CLOUDFORMATION_TEMPLATE_URL)
+[![Launch Stack](https://raw.githubusercontent.com/vireshsolanki/aws_dashboard_automation/main/automacticdashboard.yaml)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?templateURL=https://raw.githubusercontent.com/vireshsolanki/aws_dashboard_automation/main/automacticdashboard.yaml)
 
 
 
