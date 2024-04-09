@@ -29,7 +29,12 @@ resource "aws_iam_policy" "lambda_execution_policy" {
         Action   = [
           "cloudwatch:PutDashboard",
           "cloudwatch:GetDashboard",
-          "ec2:DescribeInstances"
+          "ec2:Describe*",
+          "ec2:Get*",
+          "ec2:List*",
+          "sns:*",
+          "cloudwatch:*"
+
         ]
         Resource = "*"
       }
