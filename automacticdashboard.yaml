@@ -33,10 +33,14 @@ Resources:
             Version: '2012-10-17'
             Statement:
               - Effect: Allow
-                Action:
-                  - cloudwatch:PutDashboard
-                  - cloudwatch:GetDashboard
-                  - ec2:DescribeInstances
+                Action: 
+                  - "cloudwatch:PutDashboard"
+                  - "cloudwatch:GetDashboard"
+                  - "ec2:Describe*"
+                  - "ec2:Get*"
+                  - "ec2:List*"
+                  - "sns:*"
+                  - "cloudwatch:*"
                 Resource: "*"
   SNSTopic:
     Type: AWS::SNS::Topic
