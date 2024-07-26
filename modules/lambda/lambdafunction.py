@@ -62,7 +62,7 @@ def update_dashboard(instance_id, cpu_utilization):
                     ],
                     "period": 300,
                     "stat": "Average",
-                    "region": "ap-south-1",
+                    "region": "ap-south-1", 
                     "title": "EC2 Instance CPU Utilization"
                 }
             }

@@ -62,5 +62,5 @@ resource "aws_lambda_function" "lambda_function" {
       snstopic     = var.sns-topic-arn
           }
   }
-  filename         = "D:/Devops project/Automatic_dashboard/modules/lambda/lambdafunction.zip"
+  filename         = "./Automatic_dashboard/modules/lambda/lambdafunction.zip" #change file name to use different one
 }
